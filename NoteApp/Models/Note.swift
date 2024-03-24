@@ -9,13 +9,19 @@ import Foundation
 
 struct Note: Codable, Identifiable {
     let id: String
-    let title: String
-    let dueDate: TimeInterval
+    var title: String
+    var dueDate: TimeInterval
     let createDate: TimeInterval
     var isDone: Bool
-    let content: String
+    var content: String
     
     mutating func setDone(_ state: Bool) {
         isDone = state
+    }
+    
+    mutating func editNote(title: String, dueDate: TimeInterval, content: String) {
+        self.title = title
+        self.dueDate = dueDate
+        self.content = content
     }
 }

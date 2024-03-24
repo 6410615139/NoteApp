@@ -5,6 +5,7 @@
 //  Created by Supakrit Nithikethkul on 22/3/2567 BE.
 //
 import SwiftUI
+import FirebaseFirestoreSwift
 
 struct NoteDetailsView: View {
     @StateObject var viewModel: NoteDetailsViewModel
@@ -52,6 +53,16 @@ struct NoteDetailsView: View {
         }
         .navigationTitle("Note Details")
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            Button {
+                viewModel.showingEditView = true
+            } label: {
+                Image(systemName: "pencil")
+            }
+        }
+        .sheet(isPresented: $viewModel.showingEditView) {
+            EditNoteView(note: viewModel.item!, editItemPresented: $viewModel.showingEditView)
+        }
     }
 }
 

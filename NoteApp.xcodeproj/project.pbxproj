@@ -59,6 +59,8 @@
 		CE8E6C192BAFAEBF00F19E3D /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = CE8E6C182BAFAEBF00F19E3D /* FirebaseInAppMessagingSwift-Beta */; };
 		CE8E6C1B2BAFAEBF00F19E3D /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = CE8E6C1A2BAFAEBF00F19E3D /* FirebaseInstallations */; };
 		CE8E6C1D2BAFAEBF00F19E3D /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = CE8E6C1C2BAFAEBF00F19E3D /* FirebaseMLModelDownloader */; };
+		CE8E6C1F2BAFC4F000F19E3D /* EditNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E6C1E2BAFC4F000F19E3D /* EditNoteView.swift */; };
+		CE8E6C212BAFC55B00F19E3D /* EditNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E6C202BAFC55B00F19E3D /* EditNoteViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		CE8E6BEC2BAD381300F19E3D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		CE8E6BEE2BAD382B00F19E3D /* myButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myButton.swift; sourceTree = "<group>"; };
 		CE8E6BF02BAD384C00F19E3D /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		CE8E6C1E2BAFC4F000F19E3D /* EditNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteView.swift; sourceTree = "<group>"; };
+		CE8E6C202BAFC55B00F19E3D /* EditNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +199,7 @@
 				CE8E6BDA2BAD33C800F19E3D /* NoteItemViewModel.swift */,
 				CE8E6BDC2BAD341700F19E3D /* NewNoteViewModel.swift */,
 				CE8E6BDE2BAD347E00F19E3D /* NoteDetailViewModel.swift */,
+				CE8E6C202BAFC55B00F19E3D /* EditNoteViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 				CE8E6BEC2BAD381300F19E3D /* HeaderView.swift */,
 				CE8E6BEE2BAD382B00F19E3D /* myButton.swift */,
 				CE8E6BF02BAD384C00F19E3D /* NoteDetailView.swift */,
+				CE8E6C1E2BAFC4F000F19E3D /* EditNoteView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,9 +343,11 @@
 				CE8E6BDD2BAD341700F19E3D /* NewNoteViewModel.swift in Sources */,
 				CE8E6BED2BAD381300F19E3D /* HeaderView.swift in Sources */,
 				CE8E6BEF2BAD382C00F19E3D /* myButton.swift in Sources */,
+				CE8E6C212BAFC55B00F19E3D /* EditNoteViewModel.swift in Sources */,
 				CE8E6BD12BAD32B400F19E3D /* MainViewModel.swift in Sources */,
 				CE8E6BE52BAD374F00F19E3D /* RegisterView.swift in Sources */,
 				CE8E6BE12BAD351800F19E3D /* NoteView.swift in Sources */,
+				CE8E6C1F2BAFC4F000F19E3D /* EditNoteView.swift in Sources */,
 				CE8E6BD32BAD32DF00F19E3D /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

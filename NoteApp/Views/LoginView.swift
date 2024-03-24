@@ -14,7 +14,7 @@ struct LoginView: View {
     var body: some View {
         NavigationView {
             VStack {
-                HeaderView(title: "Note", subtitle: "Get things done", angle: 15, background: .pink)
+                HeaderView(title: "Note", subtitle: "Keep your things", angle: 15, background: .green)
                 
                 Form {
                     TextField("Email Address", text: $viewModel.email)
@@ -28,7 +28,7 @@ struct LoginView: View {
                     }
                 }
                 VStack {
-                    Text("Hello")
+                    Text("Register")
                     NavigationLink("Create an Account", destination:
                         RegisterView())
                 }

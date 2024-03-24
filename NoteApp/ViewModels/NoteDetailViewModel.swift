@@ -12,6 +12,7 @@ import FirebaseFirestore
 class NoteDetailsViewModel: ObservableObject {
     var itemId: String
     @Published var item: Note? = nil
+    @Published var showingEditView = false
     
     init(itemId: String) {
         self.itemId = itemId
