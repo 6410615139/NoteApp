@@ -63,6 +63,9 @@ struct NoteDetailsView: View {
         .sheet(isPresented: $viewModel.showingEditView) {
             EditNoteView(note: viewModel.item!, editItemPresented: $viewModel.showingEditView)
         }
+        .onChange(of: viewModel.showingEditView) {
+            viewModel.fetch_item()
+        }
     }
 }
 
