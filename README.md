@@ -28,8 +28,8 @@ Delete Note
 
 Note
 
-![Note](./gif/.gif)
+![Note](./gif/edit.gif)
 
 ### Demonstratino video
 
-Demo video[Demo]()
+Demo video[Demo](https://drive.google.com/file/d/1yxL6lRReDZ1IOIGBGVvcJSCik6BbQeRr/view?usp=share_link)
