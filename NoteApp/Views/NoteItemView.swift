@@ -39,13 +39,13 @@ struct NoteItemView: View {
 
             Spacer()
 
-            // Toggle isDone button
-            Button(action: {
-                viewModel.toggleIsDone(item: item)
-            }) {
-                Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle")
-                    .foregroundColor(.blue)
-            }
+//            // Toggle isDone button
+//            Button(action: {
+//                viewModel.toggleIsDone(item: item)
+//            }) {
+//                Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle")
+//                    .foregroundColor(.blue)
+//            }
         }
     }
 }
